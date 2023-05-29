@@ -246,4 +246,30 @@
         h3 {
             color: aquamarine;
         }
+                #nav {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 20%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #nav ul {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+        #nav ul li {
+            display: block;
+            width: 100%;
+        }
+        #nav ul li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+        #header {
+            display: flex;
+        }
     }
